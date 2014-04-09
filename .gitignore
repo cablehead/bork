@@ -1,0 +1,10 @@
+*.pyc
+tmp.ini
+*.pyo
+_trial_temp
+.*.swp
+.*.swo
+*.swp
+*.DS_Store*
+*.db
+*.pid

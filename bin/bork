@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+
+from bork import optfunc
+from bork import command
+
+# import logging
+# log = logging.getLogger("bork")
+# logging.basicConfig(level=logging.WARN)
+
+optfunc.main([
+    command.start,
+    command.install,
+    command.terminate,
+    command.set_name,
+    command.set_tag,
+    command.status,
+    ])
